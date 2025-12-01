@@ -9,5 +9,6 @@ ipconfig >> Data\data.txt
 netstat >> Data\data.txt
 nslookup seznam.cz >> Data\data.txt
 tasklist >> Data\process.txt
-
+copy Data\data.txt Backup\data.txt
+copy Data\process.txt Backup\process.txt
 
